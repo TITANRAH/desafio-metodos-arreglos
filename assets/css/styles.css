@@ -1,0 +1,71 @@
+.caja-form{
+   
+    
+    background-color: rgb(184, 184, 184);
+    width: 65%;
+    height: auto;
+    margin: auto;
+    border-radius: 2rem;
+}
+
+.caja-to-do{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+   
+}
+
+.trash{
+    font-size: 1.5rem;
+    line-height: 1rem;
+    color: red;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.datos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+   
+}
+
+.id-tarea{
+    display: flex;
+    padding: 0;
+    
+    flex-direction: column;
+    justify-content: right;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.total-realizadas li{
+    list-style: none;
+    width: 100%;
+   
+}
+
+.total-realizadas ul {
+    width: 100%;
+    margin: 0;
+}
+
+.total-realizadas {
+   
+    width: 20%;
+}
+
+hr {
+    border: solid 1px rgb(230, 230, 230);
+    width: 100%;
+}
+
+
